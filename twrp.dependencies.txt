@@ -1,0 +1,8 @@
+[
+  {
+    "remote": "TeamWin",
+    "repository": "android_device_asus_sm8250-common",
+    "target_path": "device/asus/sm8250-common",
+    "branch": "android-12.1"
+  }
+]
