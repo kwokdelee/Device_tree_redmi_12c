@@ -1,0 +1,8 @@
+[
+  {
+    "remote": "TeamWin",
+    "repository": "android_device_Redmi_22120RN86C",
+    "target_path": "device/xiaomi/earth",
+    "branch": "android-12.1"
+  }
+]
