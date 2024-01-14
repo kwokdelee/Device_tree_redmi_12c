@@ -1,0 +1,37 @@
+Device: 22126RN91Y
+SDK: Android 13 (33)
+UserSelection(userSelectedUserdata=2147483648, userSelectedImageSize=-1, selectedFileUri=content://com.android.externalstorage.documents/document/primary%3ADownload%2FDsu%2FHavoc-OS-v3.12-20201230-Official-arm64-ab.img, selectedFileName=Havoc-OS-v3.12-20201230-Official-arm64-ab.img)
+SingleSystemImage(uri=content://com.android.externalstorage.documents/tree/primary%3ADownload%2FDsu/document/primary%3ADownload%2FDsu%2Fworkspace_dsuhelper%2FHavoc-OS-v3.12-20201230-Official-arm64-ab.img.gz, fileSize=1932792064, type=SINGLE_SYSTEM_IMAGE)
+InstallationPreferences(isUnmountSdCard=false, useBuiltinInstaller=false)
+operationMode: SYSTEM
+Package: vegabobo.dsusideloader
+Version: 2.03 - 8 (release})
+checkDynamicPartitions: true
+checkUnavaiableStorage: true
+checkReadLogsPermission: true
+allocPercentage: 0.4
+hasAvailableStorage: true
+maximumAllowedForAllocation: 29
+
+--------- beginning of main
+D/DynamicSystemInstallationService: onStartCommand(): action=android.os.image.action.START_INSTALL
+--------- beginning of system
+E/gsid    : Failed to destroy DSU metadata encryption key.
+I/DynamicSystemService: startInstallation -> /data/gsi/dsu
+D/DynamicSystemInstallationService: status: IN_PROGRESS, cause: CAUSE_NOT_SPECIFIED, partition name: userdata, progress: 0/2147483648, total_progress: 0%
+I/gsid    : [libfs_mgr]Created logical partition userdata_gsi on device /dev/block/dm-14
+D/DynamicSystemInstallationService: status: IN_PROGRESS, cause: CAUSE_NOT_SPECIFIED, partition name: userdata, progress: 2147483648/2147483648, total_progress: 20%
+I/gsid    : [libfs_mgr]Created logical partition system_gsi on device /dev/block/dm-14
+D/DynamicSystemInstallationService: status: IN_PROGRESS, cause: CAUSE_NOT_SPECIFIED, partition name: system, progress: 0/1962815488, total_progress: 20%
+D/DynamicSystemInstallationService: status: IN_PROGRESS, cause: CAUSE_NOT_SPECIFIED, partition name: system, progress: 134225920/1962815488, total_progress: 25%
+D/DynamicSystemInstallationService: status: IN_PROGRESS, cause: CAUSE_NOT_SPECIFIED, partition name: system, progress: 268914688/1962815488, total_progress: 30%
+D/DynamicSystemInstallationService: status: IN_PROGRESS, cause: CAUSE_NOT_SPECIFIED, partition name: system, progress: 403656704/1962815488, total_progress: 36%
+D/DynamicSystemInstallationService: status: IN_PROGRESS, cause: CAUSE_NOT_SPECIFIED, partition name: system, progress: 538398720/1962815488, total_progress: 41%
+D/DynamicSystemInstallationService: status: IN_PROGRESS, cause: CAUSE_NOT_SPECIFIED, partition name: system, progress: 673140736/1962815488, total_progress: 47%
+D/DynamicSystemInstallationService: status: IN_PROGRESS, cause: CAUSE_NOT_SPECIFIED, partition name: system, progress: 807882752/1962815488, total_progress: 52%
+D/DynamicSystemInstallationService: status: IN_PROGRESS, cause: CAUSE_NOT_SPECIFIED, partition name: system, progress: 942624768/1962815488, total_progress: 58%
+D/DynamicSystemInstallationService: status: IN_PROGRESS, cause: CAUSE_NOT_SPECIFIED, partition name: system, progress: 1077366784/1962815488, total_progress: 63%
+D/DynamicSystemInstallationService: status: IN_PROGRESS, cause: CAUSE_NOT_SPECIFIED, partition name: system, progress: 1212108800/1962815488, total_progress: 69%
+D/DynamicSystemInstallationService: status: IN_PROGRESS, cause: CAUSE_NOT_SPECIFIED, partition name: system, progress: 1346850816/1962815488, total_progress: 74%
+D/DynamicSystemInstallationService: status: IN_PROGRESS, cause: CAUSE_NOT_SPECIFIED, partition name: system, progress: 1481592832/1962815488, total_progress: 80%
+D/DynamicSystemInstallationService: status: IN_PROGRESS, cause: CAUSE_NOT_SPECIFIED, partition name: system, progress: 1616334848/1962815488, total_progress: 85%
